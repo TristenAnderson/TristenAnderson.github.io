@@ -1,0 +1,67 @@
+.mainContent {
+    height: 100%;
+    width: 100%;
+    background-color: #263249;
+    display: table;
+    color: white;
+    min-height: 80vh;
+}
+
+.row {
+    top: 20px;
+    position: relative;
+}
+
+.rightcol {
+    float: left;
+    width: 70%;
+}
+
+.leftcol {
+    float: left;
+    width: 30%;
+}
+
+.cardCenter {
+    float: left;
+    width: 85%;
+    margin-left: 7.5vw;
+    background-color: rgb(70, 83, 99);
+    padding: 20px;
+    border-radius: 2vh;
+    margin-top: 20px;
+}
+
+.cardLeft {
+    background-color: rgb(70, 83, 99);
+    border-radius: 2vh;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 2.5vw;
+    margin-right: 1vw;
+}
+
+.cardRight {
+    background-color: rgb(70, 83, 99);
+    border-radius: 2vh;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 2.5vw;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcol, .rightcol {   
+      width: 100%;
+      padding: 0;
+    }
+    .cardLeft, .cardRight {
+        background-color: #474c5c;
+        border-radius: 2vh;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+  }
+
+/*#1F2833*/

@@ -1,18 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Pdf from './Resume.pdf';
 import {Button} from 'react-bootstrap'; 
 
 
-class ResumeButton extends Component {
-
-  render() {
+function ResumeButton() {
 
     return (
-      <div className = "App">
-        <Button variant="outline-success" href={Pdf} >Resume</Button>
+      <div>
+        <Button
+          variant="outline-success"
+          href={Pdf}
+          target="_blank"
+          rel="nofollow noopener noreferrer">
+          Resume
+        </Button>
       </div>
-    );
-  }
+    )
 }
 
 export default ResumeButton;
