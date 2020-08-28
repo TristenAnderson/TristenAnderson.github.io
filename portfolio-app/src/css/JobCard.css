@@ -1,0 +1,39 @@
+.JobCard {
+    background-color: #0D212E;
+    position: relative;
+    width: 35%;
+    left: 30%;
+    margin-top: 1%;
+}
+
+.JobHeader {
+    color: #f5f5f5;
+}
+.JobBullets {
+    color: #c3c3c3
+}
+.JobDates {
+    color: #f5f5f5
+}
+
+.CompanyLink {
+    color: #a5a5a5;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .JobCard {
+        width: 90%;
+        left: 5%;
+        margin-top: 2%;
+    }
+    .JobHeader {
+        font-size: 90%;
+    }
+    .JobBullets {
+        font-size: 75%;
+    }
+    .JobDates {
+        font-size: 90%;
+    }
+  }

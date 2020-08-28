@@ -1,10 +1,10 @@
 .mainContent {
     height: 100%;
     width: 100%;
-    background-color: #263249;
+    background-color: #0D212E;
     display: table;
     color: white;
-    min-height: 80vh;
+    min-height: 95vh;
 }
 
 .row {
@@ -26,15 +26,15 @@
     float: left;
     width: 85%;
     margin-left: 7.5vw;
-    background-color: rgb(70, 83, 99);
+    background-color: #0B1B26;
     padding: 20px;
-    border-radius: 2vh;
+    border-radius: 1vh;
     margin-top: 20px;
 }
 
 .cardLeft {
-    background-color: rgb(70, 83, 99);
-    border-radius: 2vh;
+    background-color: #0B1B26;
+    border-radius: 1vh;
     padding: 20px;
     margin-top: 20px;
     margin-left: 2.5vw;
@@ -42,8 +42,8 @@
 }
 
 .cardRight {
-    background-color: rgb(70, 83, 99);
-    border-radius: 2vh;
+    background-color: #0B1B26;
+    border-radius: 1vh;
     padding: 20px;
     margin-top: 20px;
     margin-right: 2.5vw;

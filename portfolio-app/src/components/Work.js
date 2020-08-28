@@ -1,12 +1,22 @@
 import React from 'react'
 import Navbar from './Nav'
+import JobCard from './JobCard'
+import Footer from './Footer'
+import data from '../data/jobs'
 
 function Work() {
 
+    const Cards = data.map(item => <JobCard job={item} />)
+
     return(
-        <div>
+        <div> 
             <Navbar /> 
-            Some random text
+            <div className='mainContent'>
+                <div className="jobContainer">
+                    {Cards}
+                </div>
+            </div>
+        <Footer />
         </div>
     )
 }

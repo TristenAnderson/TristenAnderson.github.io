@@ -1,0 +1,14 @@
+/*The following file creates custom react-bootstrap themes*/
+
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+    "danger": teal,
+);
+
+$primary: #021D26;
+$secondary: #1F4E6D;
+$success: #15C6C9;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap.scss";

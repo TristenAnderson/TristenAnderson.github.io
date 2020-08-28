@@ -5,7 +5,7 @@ function Footer() {
     const useStyles = {
             width: "100%",
             height: "40px",
-            backgroundColor: "#1F2833",
+            backgroundColor: "#021D26",
             color: "#f5f5f5",
     }
 

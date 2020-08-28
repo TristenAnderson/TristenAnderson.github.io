@@ -25,7 +25,7 @@ const jobs = [
     {
         company: "Swarm Robotix",
         title: "Mechanical Engineering Intern",
-        link: "https://swarmrobotix.com/",
+        link: "http://www.swarmrobotix.com/",
         date: "Summer 2017",
         points: [
             'Collaborated in a small team of engineers to design, manufacture and test the chassis and swerve drivetrain for Swarm Robotix’s multirobot initiative',
@@ -36,7 +36,7 @@ const jobs = [
     {
         company: "Northern Illinois Robotics",
         title: "Project Lead",
-        link: "",
+        link: "https://sites.google.com/view/niu-robotics-club/about",
         date: "Fall 2017 - Spring 2019",
         points: [
             'Developed and prototyped robotic manipulators with a small group of students using SolidWorks',
