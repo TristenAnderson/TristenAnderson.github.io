@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Nav'
 import Footer from './Footer'
 import '../css/Home.css'
+import EducationCard from './EducationCard'
 
 function Home() {
 
@@ -12,7 +13,7 @@ function Home() {
             <div className="row">
                     <div className="leftcol">
                         <div className='cardLeft'>
-                            test
+                            <EducationCard />
                         </div>
                         <div className='cardLeft'>
                             test2

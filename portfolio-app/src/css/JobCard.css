@@ -21,6 +21,11 @@
     text-decoration: none;
 }
 
+.CompanyLink a:hover {
+    color: #20e4b0;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 800px) {
     .JobCard {
         width: 90%;
@@ -37,3 +42,5 @@
         font-size: 90%;
     }
   }
+
+  

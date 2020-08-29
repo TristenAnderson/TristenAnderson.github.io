@@ -1,4 +1,5 @@
 import React from 'react';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Footer() {
 
@@ -12,6 +13,7 @@ function Footer() {
     return(
         <div style={useStyles}>
             Footer
+            <GitHubIcon />
         </div>
     )
 
