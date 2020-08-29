@@ -1,5 +1,5 @@
 .JobCard {
-    background-color: #0D212E;
+    background-color: #0d2135;
     position: relative;
     width: 35%;
     left: 30%;
@@ -17,7 +17,7 @@
 }
 
 .CompanyLink {
-    color: #a5a5a5;
+    color: #5ff0ce;
     text-decoration: none;
 }
 

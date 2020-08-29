@@ -1,0 +1,24 @@
+
+.projectGrid {
+    align-items: "center";
+    justify-content: "center";
+    display: grid; 
+    position: relative;
+    margin-top: 10vh;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+.projectCont {
+    position: relative;
+    width: 50vw;
+    left: 25vw;
+    background-color: black;
+}
+
+@media(max-width: 600px) {
+    .projectCont {
+        width: 80vw;
+        left: 10vw;
+    }
+}

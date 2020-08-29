@@ -1,19 +1,31 @@
 import React from 'react';
-import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Footer() {
 
     const useStyles = {
             width: "100%",
-            height: "40px",
-            backgroundColor: "#021D26",
+            minHeight: "50px",
+            backgroundColor: "#0d2135",
             color: "#f5f5f5",
+            alignItems: "center",
+            justifyContent: "center",
+            display: "flex"
+    }
+
+    const linkStyle = {
+        color: "#5ff0ce",
     }
 
     return(
         <div style={useStyles}>
-            Footer
-            <GitHubIcon />
+            <a
+             href="https://github.com/TristenAnderson"
+             target="_blank"
+             rel="noopener noreferrer"
+             style={linkStyle}>
+                 Built and Designed by Tristen Anderson
+             </a>
+            
         </div>
     )
 
