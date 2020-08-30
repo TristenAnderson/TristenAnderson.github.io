@@ -22,16 +22,6 @@
     width: 30%;
 }
 
-.cardCenter {
-    float: left;
-    width: 85%;
-    margin-left: 7.5vw;
-    background-color: #0B1B26;
-    padding: 20px;
-    border-radius: 1vh;
-    margin-top: 20px;
-}
-
 .cardLeft {
     background-color: #0B1B26;
     border-radius: 1vh;

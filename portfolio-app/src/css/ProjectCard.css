@@ -1,11 +1,11 @@
 
-  .testing {
+  .projectBox {
     position: "relative";
-    height: "24vh";
-    width: "24vh";
-    background-color: "red";
+    height: "25vh";
+    width: "16vw";
+    background-color: "black";
     justify-content: "center";
     align-items: "center";
-    display: "flex";
-    border-radius: ".2rem";
+    border-radius: ".4rem";
+    padding: "1rem 1rem";
 }

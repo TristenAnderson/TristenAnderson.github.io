@@ -1,24 +1,28 @@
 
-.projectGrid {
-    align-items: "center";
-    justify-content: "center";
+.project-grid {
     display: grid; 
     position: relative;
-    margin-top: 10vh;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vw;
 }
 
-.projectCont {
+.grid-container {
     position: relative;
+    justify-content: "center";
     width: 50vw;
     left: 25vw;
-    background-color: black;
-}
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    align-items: center;
+} 
 
-@media(max-width: 600px) {
-    .projectCont {
+ @media(max-width: 600px) {
+    .grid-container {
         width: 80vw;
         left: 10vw;
     }
-}
+    .project-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+} 

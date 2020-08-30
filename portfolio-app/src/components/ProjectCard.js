@@ -10,21 +10,40 @@ function ProjectCard(props) {
         color: "#5ff0ce",
     }
 
+    // const projectBox = {
+    //     position: "relative",
+    //     height: "25vh",
+    //     width: "16vw",
+    //     backgroundColor: "black",
+    //     justifyContent: "center",
+    //     alignItems: "center",
+    //     borderRadius: ".4rem",
+    //     padding: "1rem 1rem",
+    // }
+
+    function Test(e) {
+        e.target.style.background = "orange"
+    }
+
+    function Undo(e) {
+        e.target.style.background = "black"
+    }
+
     return(
-        <div className="App">
-        <div className="testing" >
+        <div >
+        <div className="projectBox" onMouseEnter={Test} onMouseLeave={Undo}>
             <FolderOpenIcon style={useStyle}/>
             <a 
-            href="https://github.com/TristenAnderson"
+            href={props.project.link}
             target="_blank"
             rel="noopener noreferrer"
              >
             <GitHubIcon style={useStyle}/>
             </a>
             <LaunchIcon style={useStyle}/>
-            <h1>Project Title</h1>
-            <p>Project Description</p>
-            <p>Tools Used</p>
+            <h1>{props.project.title}</h1>
+            <p>{props.project.desc}</p>
+            <p>{props.project.tools}</p>
         </div>
         </div>
     )
