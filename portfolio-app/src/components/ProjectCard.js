@@ -10,28 +10,17 @@ function ProjectCard(props) {
         color: "#5ff0ce",
     }
 
-    // const projectBox = {
-    //     position: "relative",
-    //     height: "25vh",
-    //     width: "16vw",
-    //     backgroundColor: "black",
-    //     justifyContent: "center",
-    //     alignItems: "center",
-    //     borderRadius: ".4rem",
-    //     padding: "1rem 1rem",
+    // function Test(e) {
+    //     e.target.style.background = "orange"
     // }
 
-    function Test(e) {
-        e.target.style.background = "orange"
-    }
-
-    function Undo(e) {
-        e.target.style.background = "black"
-    }
+    // function Undo(e) {
+    //     e.target.style.background = "black"
+    // }
 
     return(
         <div >
-        <div className="projectBox" onMouseEnter={Test} onMouseLeave={Undo}>
+        <div className='project-card' id='fucker' >
             <FolderOpenIcon style={useStyle}/>
             <a 
             href={props.project.link}
@@ -48,5 +37,7 @@ function ProjectCard(props) {
         </div>
     )
 }
+
+// onMouseEnter={Test} onMouseLeave={Undo}
 
 export default ProjectCard

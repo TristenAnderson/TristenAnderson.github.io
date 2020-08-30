@@ -13,15 +13,10 @@ function Projects() {
         <div>
             <Navbar /> 
             <div className='mainContent'>
-                <h1 style={{left: "30vh", position: "relative", top: "2vh"}}>Some Sample Text</h1>
+                {/* <h1 style={{left: "30vh", position: "relative", top: "2vh"}}>Some Sample Text</h1> */}
+                
                 <div className="grid-container">
                     <div className="project-grid">
-                        {/* <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />    */}
                         {ProjectCards}     
                     </div>
                 </div>
