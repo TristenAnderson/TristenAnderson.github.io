@@ -33,7 +33,7 @@ const data = [
       link: "https://github.com/TristenAnderson/",
       date: "8/30/2020",
       desc: "A web app to register for Karaoke songs",
-      tools: ["html", "CSS", "php"],
+      tools: ["HTML", "CSS", "php"],
    },
 ]
 

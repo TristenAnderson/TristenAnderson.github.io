@@ -10,6 +10,8 @@ function ProjectCard(props) {
         color: "#5ff0ce",
     }
 
+    const points = props.project.tools.map(tool => <p className="project-tools">{tool}</p>)
+
     // function Test(e) {
     //     e.target.style.background = "orange"
     // }
@@ -20,20 +22,26 @@ function ProjectCard(props) {
 
     return(
         <div >
-        <div className='project-card' id='fucker' >
-            <FolderOpenIcon style={useStyle}/>
-            <a 
-            href={props.project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-             >
-            <GitHubIcon style={useStyle}/>
-            </a>
-            <LaunchIcon style={useStyle}/>
-            <h1>{props.project.title}</h1>
-            <p>{props.project.desc}</p>
-            <p>{props.project.tools}</p>
-        </div>
+            <div className='project-card'>
+                <div className="project-card-icon">
+                    <FolderOpenIcon style={useStyle}/>
+                </div>
+                <div className="project-card-header">
+                    <div className="project-card-header-item">
+                    <a 
+                    href={props.project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    <GitHubIcon style={useStyle}/>
+                    </a>
+                    </div>
+                    <LaunchIcon style={useStyle}/>
+                </div>
+                <h1 className="project-title">{props.project.title}</h1>
+                <p className="project-desc">{props.project.desc}</p>
+                {points}
+            </div>
         </div>
     )
 }
