@@ -39,7 +39,7 @@ function ProjectCard(props) {
                     <LaunchIcon style={useStyle}/>
                 </div>
                 <h1 className="project-title">{props.project.title}</h1>
-                <p className="project-desc">{props.project.desc}</p>
+                <p className="project-desc">{props.project.desc}</p> 
                 {points}
             </div>
         </div>

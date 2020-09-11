@@ -1,7 +1,7 @@
 
 const jobs = [
     {
-        company: "Dicover Financial Services",
+        company: "Discover Financial Services",
         title: "Business Technology Intern",
         link: "https://www.discover.com/",
         date: "Summer 2020",

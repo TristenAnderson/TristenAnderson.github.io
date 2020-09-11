@@ -1,22 +1,19 @@
 import React from 'react';
-import Pdf from './Resume.pdf';
 import {Button} from 'react-bootstrap'; 
 
-
-function ResumeButton() {
+function OutlineButton(props) {
 
     return (
       <div>
         <Button
           variant="outline-success"
-          href={Pdf}
+          href={props.to}
           target="_blank"
-          rel="nofollow noopener noreferrer"
-          >
-          Resume
+          rel="nofollow noopener noreferrer">
+          {props.title}
         </Button>
       </div>
     )
 }
 
-export default ResumeButton;
+export default OutlineButton;

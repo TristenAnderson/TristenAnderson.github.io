@@ -16,7 +16,18 @@
     align-items: center;
 } 
 
- @media(max-width: 600px) {
+ @media(max-width: 1600px) {
+    .grid-container {
+        width: 70vw;
+        left: 15vw;
+    }
+    .project-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+} 
+
+@media(max-width: 600px) {
     .grid-container {
         width: 80vw;
         left: 10vw;
