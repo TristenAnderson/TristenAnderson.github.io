@@ -1,0 +1,27 @@
+.contactCard {
+    text-align: center;
+    top: 15vh;
+    position: relative;
+    width: 30vw;
+    left:35vw;
+    font-size: 110%;
+}
+
+.linkBar {
+    display: inline-flex;
+    justify-content: center;
+    color: #5ff0ce;
+}
+
+.contactDesc {
+    padding-top: 5px;
+    padding-bottom: 25px;
+    color: #c3c3c3;
+}
+
+@media (max-width: 1200px) {
+    .contactCard {
+        width: 90vw;
+        left: 5vw;
+    }
+}

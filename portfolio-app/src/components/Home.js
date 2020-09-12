@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './Nav'
 import Footer from './Footer'
 import '../css/Home.css'
-import EducationCard from './EducationCard'
 
 function Home() {
 
@@ -10,24 +9,8 @@ function Home() {
         <div className = 'App'>
             <Navbar /> 
             <div className='mainContent'>
-            <div className="row">
-                    <div className="leftcol">
-                        <div className='cardLeft'>
-                            <EducationCard />
-                        </div>
-                        <div className='cardLeft'>
-                            test2
-                        </div>
-                    </div>
-                    <div className="rightcol">
-                        <div className='cardRight'>
-                            test3
-                        </div>
-                        <div className='cardRight'>
-                            test4
-                        </div>
-                    </div>
-                </div>
+               <h1 className='title'>Welcome to my site!</h1>
+               <p className='styledText'>Use the navbar to learn more</p>
             </div>
             <Footer />
         </div>

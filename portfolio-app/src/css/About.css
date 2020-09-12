@@ -1,0 +1,27 @@
+.aboutSection {
+    position: relative;
+    
+    top: 10vh;
+    width: 30vw;
+    left: 35vw;
+}
+
+.recentTech {
+    color: #c3c3c3;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 240px));
+    margin: 20px 0 0 0;
+    
+}
+
+@media(max-width: 1200px){
+    
+    .aboutSection {
+        width: 90vw;
+        left: 5vw;
+    }
+
+    .recentTech {
+        justify-content: center;
+    }
+}

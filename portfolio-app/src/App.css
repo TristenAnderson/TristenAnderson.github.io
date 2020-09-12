@@ -2,24 +2,19 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mainContent {
+  height: 100%;
+  width: 100%;
+  background-color: #0d2135;
   color: white;
+  min-height: 95vh;
+  display: table;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  color:  #f5f5f5;
 }
 
-/*
-192231
-263249
-7F8BA2
-BCD4CE
-*/
+.styledText {
+  color: #c3c3c3;
+}

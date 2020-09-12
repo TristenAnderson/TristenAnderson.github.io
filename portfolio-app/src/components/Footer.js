@@ -25,7 +25,6 @@ function Footer() {
              style={linkStyle}>
                  Built and Designed by Tristen Anderson
              </a>
-            
         </div>
     )
 
