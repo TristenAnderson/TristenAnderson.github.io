@@ -3,6 +3,7 @@ import Navbar from './Nav'
 import JobCard from './JobCard'
 import Footer from './Footer'
 import data from '../data/jobs'
+import '../css/Work.css'
 
 function Work() {
 
@@ -10,13 +11,19 @@ function Work() {
 
     return(
         <div> 
-            <Navbar /> 
+            
+            <div className='NavCenter'> 
+                <Navbar /> 
+            </div>
+
             <div className='mainContent'>
-                <div className="jobContainer">
+                <div className='Work'>
                     {Cards}
                 </div>
             </div>
-        <Footer />
+
+            <Footer />
+
         </div>
     )
 }

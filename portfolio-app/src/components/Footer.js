@@ -9,7 +9,8 @@ function Footer() {
             color: "#f5f5f5",
             alignItems: "center",
             justifyContent: "center",
-            display: "flex"
+            display: "flex",
+            position: 'relative',
     }
 
     const linkStyle = {

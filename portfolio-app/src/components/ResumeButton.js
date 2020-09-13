@@ -1,6 +1,6 @@
 import React from 'react';
-import Pdf from './Resume.pdf';
 import {Button} from 'react-bootstrap'; 
+import Resume from '../data/TAndersonResume.pdf'
 
 
 function ResumeButton() {
@@ -9,7 +9,7 @@ function ResumeButton() {
       <div>
         <Button
           variant="outline-success"
-          href={Pdf}
+          href={Resume}
           target="_blank"
           rel="nofollow noopener noreferrer"
           >

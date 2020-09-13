@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import About from './components/About';
-import Resume from './components/Resume.pdf';
+import Resume from './data/TAndersonResume.pdf';
 
 function App() {
   return (

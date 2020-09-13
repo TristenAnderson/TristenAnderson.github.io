@@ -10,13 +10,18 @@ function About() {
         textDecoration: 'none',
     }
 
-    const skills = ['JavaScript', 'HTML', 'CSS', 'React', 'Node.js', 'Blue Prism']
+    const skills = ['JavaScript', 'R', 'C++', 'React', 'Node.js', 'Blue Prism']
 
     return(
         <div>
-            <Navbar /> 
+
+            <div className='NavCenter'> 
+                <Navbar /> 
+            </div>
+         
             <div className='mainContent'>
                <div className='aboutSection'>
+
                     <h1 className='title'>About Me</h1>
 
                     <div className='styledText'>
@@ -25,6 +30,7 @@ function About() {
                             I am set to graduate in May of 2021, and am currently seeking a full-time position as a software engineer. 
 
                         </p>
+                        
                         <p>Over the course of the past year I had the privilege to intern at
                             <a href='https://www.discover.com/' target="_blank" rel="noopener noreferrer" style={styleLink}> Discover Financial Services. </a>
                             In my time there, I had the opportunity to work on a variety of projects, including several full stack web apps
@@ -37,9 +43,12 @@ function About() {
                     <div className='recentTech'>
                         {skills.map((skill, i) => <li key={i}>{skill}</li>)}
                     </div>
+
                </div>
             </div>
+
             <Footer />
+
         </div>
     )
 }

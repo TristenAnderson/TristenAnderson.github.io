@@ -1,0 +1,14 @@
+.home {
+    top: 20vh;
+    position: relative;
+    left: 35vw;
+}
+
+@media(max-width: 1200px) {
+    .home {
+        top: 20vh;
+        position: relative;
+        left: 5vw;
+        width: 90vw;
+    }
+}

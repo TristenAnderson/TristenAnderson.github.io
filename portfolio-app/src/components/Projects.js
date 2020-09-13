@@ -11,16 +11,18 @@ function Projects() {
 
     return(
         <div>
-            <Navbar /> 
+            <div className='NavCenter'> 
+                <Navbar /> 
+            </div>
+
             <div className='mainContent'>
-                {/* <h1 style={{left: "30vh", position: "relative", top: "2vh"}}>Some Sample Text</h1> */}
-                
                 <div className="grid-container">
                     <div className="project-grid">
                         {ProjectCards}     
                     </div>
                 </div>
             </div>
+
             <Footer />
         </div>
     )

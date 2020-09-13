@@ -11,23 +11,27 @@ function Contact() {
 
     return(
         <div>
-            <Navbar />
-                <div className='mainContent'>
-                    <div className='contactCard'>
-                        <h1 className='title'>Get In Touch</h1>
-                        <div className='linkBar'>
-                            {/*possible feature*/}
-                        </div>
-                        <p className='contactDesc'>My inbox is always open,
-                         if you have questions or just want to get in contact send me an email. I will do my best to reply,
-                          please let me know you are from my site :)
-                        </p>
-                        <OutlineButton 
-                        to='mailto:tristendanderson@gmail.com' 
-                        title='Email Me' 
-                        />
+            <div className='NavCenter'> 
+                <Navbar /> 
+            </div>
+
+            <div className='mainContent'>
+                <div className='contactCard'>
+                    <h1 className='title'>Get In Touch</h1>
+                    <div className='linkBar'>
+                        {/*possible feature*/}
                     </div>
+                    <p className='contactDesc'>My inbox is always open,
+                        if you have questions or just want to get in contact send me an email. I will do my best to reply,
+                        please let me know you are from my site :)
+                    </p>
+                    <OutlineButton 
+                    to='mailto:tristendanderson@gmail.com' 
+                    title='Email Me' 
+                    />
                 </div>
+            </div>
+
             <Footer />
         </div>
     )
