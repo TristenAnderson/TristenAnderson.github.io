@@ -11,15 +11,15 @@ import Resume from './data/TAndersonResume.pdf';
 function App() {
   return (
     <main>
-      <HashRouter basename='/'>
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/About'component={About} />
-        <Route exact path='/Projects'component={Projects} />
-        <Route exact path='/Work' component={Work} />
-        <Route exact path='/Resume' component={Resume} />
-        <Route exact path='/Contact' component={Contact} />
-      </Switch>
+      <HashRouter basename={process.env.PUBLIC_URL}>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/About'component={About} />
+          <Route exact path='/Projects'component={Projects} />
+          <Route exact path='/Work' component={Work} />
+          <Route exact path='/Resume' component={Resume} />
+          <Route exact path='/Contact' component={Contact} />
+        </Switch>
       </HashRouter>
     </main>
   );
