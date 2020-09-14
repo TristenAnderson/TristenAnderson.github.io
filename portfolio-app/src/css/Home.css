@@ -1,7 +1,7 @@
 .home {
     top: 20vh;
     position: relative;
-    left: 35vw;
+    left: 30vw;
 }
 
 @media(max-width: 1200px) {

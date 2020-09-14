@@ -6,9 +6,9 @@ const jobs = [
         link: "https://www.discover.com/",
         date: "Summer 2020",
         points: [
-            'Applied robotic process automation to multiple manual processes using Blue Prism across payment services to identify out of balance accounts using Blue Prism software',
-            'Documented process definition statements to maintain the software development lifecycle for use cases',
-            'Interfaced with production teams to revise, debug and optimize automations to meet business needs',
+            'Applied robotic process automation to multiple manual processes using Blue Prism across payment services to identify out of balance accounts',
+            'Documented process definition statements to maintain software development life cycle for use cases',
+            'Partnered with production teams to revise, debug and optimize automations to meet business needs ',
         ]
     },
     {
@@ -19,18 +19,18 @@ const jobs = [
         points: [
             'Developed full stack applications including a programmer chatbot and a student loan dashboard employing a variety of technologies including React, Node.js, CSS, and Pivotal Cloud Foundry',
             'Architected and implemented a relational database for the programmer chatbot on PCF',
-            'Worked with a team of developers following agile methodologies to generate minimal viable products',
+            'Utilized agile software development concepts to generate minimal viable products',
         ]
     },
     {
         company: "Swarm Robotix",
         title: "Mechanical Engineering Intern",
         link: "http://www.swarmrobotix.com/",
-        date: "Summer 2017",
+        date: "Summer 2018",
         points: [
-            'Collaborated in a small team of engineers to design, manufacture and test the chassis and swerve drivetrain for Swarm Robotix’s multirobot initiative',
-            'Generated a standard bottom up CAD practice to be implemented across the mechanical design teams ',
-            'Created documentation on design iterations using part sketches and assembly part explosions',
+            'Collaborated in a small team of engineers to design, manufacture and test the chassis and swerve drivetrain for Swarm Robotix’s multi-robot initiative ',
+            'Developed a standard bottom-up CAD practice to be implemented across the mechanical design teams ',
+            'Devised and authored documentation on design iterations using part sketches and exploded views ',
         ]
     },
     {
