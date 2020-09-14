@@ -23,7 +23,7 @@ function Contact() {
                     </div>
                     <p className='contactDesc'>My inbox is always open,
                         if you have questions or just want to get in contact send me an email. I will do my best to reply,
-                        please let me know you are from my site :)
+                        please let me know you are from my site.
                     </p>
                     <OutlineButton 
                     to='mailto:tristendanderson@gmail.com' 
