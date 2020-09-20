@@ -15,6 +15,7 @@ function Footer() {
 
     const linkStyle = {
         color: "#5ff0ce",
+        textDecoration: "none",
     }
 
     return(

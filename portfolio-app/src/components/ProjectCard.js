@@ -1,6 +1,6 @@
 import React from 'react'
-import LaunchIcon from '@material-ui/icons/Launch';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import LaunchIcon from './LaunchIcon'
+import GithubIcon from './GithubIcon'
 import FolderOpenIcon from '@material-ui/icons/FolderOpen';
 import '../css/ProjectCard.css';
 
@@ -12,40 +12,35 @@ function ProjectCard(props) {
 
     const points = props.project.tools.map(tool => <p className="project-tools">{tool}</p>)
 
-    // function Test(e) {
-    //     e.target.style.background = "orange"
-    // }
-
-    // function Undo(e) {
-    //     e.target.style.background = "black"
-    // }
-
     return(
         <div >
             <div className='project-card'>
+
                 <div className="project-card-icon">
                     <FolderOpenIcon style={useStyle}/>
                 </div>
+
                 <div className="project-card-header">
+                    
+                    {props.project.link ? 
                     <div className="project-card-header-item">
-                    <a 
-                    href={props.project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    <GitHubIcon style={useStyle}/>
-                    </a>
-                    </div>
-                    <LaunchIcon style={useStyle}/>
+                        <GithubIcon to={props.project.link} /> 
+                    </div> : ""}
+                    
+                    { props.project.launch ?
+                    <div className="project-card-header-item"> 
+                        <LaunchIcon to={props.project.launch}/>
+                    </div> : ""}
+                    
                 </div>
+
                 <h1 className="project-title">{props.project.title}</h1>
                 <p className="project-desc">{props.project.desc}</p> 
                 {points}
+
             </div>
         </div>
     )
 }
-
-// onMouseEnter={Test} onMouseLeave={Undo}
 
 export default ProjectCard
