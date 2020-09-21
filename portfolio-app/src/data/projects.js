@@ -9,20 +9,6 @@ const data = [
       tools: ["React", "CSS", "JavaScript"],
    },
    {
-      title: "Spotify Dashboard",
-      link: "",
-      date: "8/30/2020",
-      desc: "A dashboard to visualize personal listening data and to generate playlists based on playcount",
-      tools: ["React", "Node.js", "CSS", "JavaScript"],
-   },
-   {
-      title: "Covid-19 Dashboard",
-      link: "",
-      date: "8/30/2020",
-      desc: "A dashboard to present current covid-19 data",
-      tools: ["React", "Node.js", "CSS", "JavaScript"],
-   },
-   {
       title: "467 Group Project",
       link: "",
       date: "8/30/2020",
@@ -31,11 +17,27 @@ const data = [
    },
    {
       title: "466 Group Project",
-      link: "https://github.com/TristenAnderson/",
+      link: "https://github.com/TristenAnderson/466GroupProject",
+      launch: "http://students.cs.niu.edu/~z1820036/groupProject/",
       date: "8/30/2020",
-      desc: "A web app to register for Karaoke songs",
+      desc: "A web app to register for a small set Karaoke songs",
       tools: ["HTML", "CSS", "php"],
    },
 ]
 
 export default data
+
+// {
+//    title: "Spotify Dashboard",
+//    link: "",
+//    date: "8/30/2020",
+//    desc: "A dashboard to visualize personal listening data and to generate playlists based on playcount",
+//    tools: ["React", "Node.js", "CSS", "JavaScript"],
+// },
+// {
+//    title: "Covid-19 Dashboard",
+//    link: "",
+//    date: "8/30/2020",
+//    desc: "A dashboard to present current covid-19 data",
+//    tools: ["React", "Node.js", "CSS", "JavaScript"],
+// },

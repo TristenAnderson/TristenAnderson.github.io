@@ -31,7 +31,7 @@ function About() {
 
                         </p>
                         
-                        <p>Over the course of the past year I had the privilege to intern at
+                        <p>Over the course of the past year I had the privilege of interning at
                             <a href='https://www.discover.com/' target="_blank" rel="noopener noreferrer" style={styleLink}> Discover Financial Services. </a>
                             In my time there, I had the opportunity to work on a variety of projects, including several full stack web apps
                              and robotic process automation.
@@ -48,7 +48,7 @@ function About() {
             </div>
 
             <Footer />
-
+            
         </div>
     )
 }
