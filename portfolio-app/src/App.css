@@ -3,8 +3,8 @@
 }
 
 .mainContent {
-  height: 100%;
   width: 100%;
+  height: 100%;
   background-color: #0d2135;
   color: white;
   min-height: 95vh;
