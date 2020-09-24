@@ -2,8 +2,10 @@ import React from 'react'
 import Navbar from './Nav'
 import JobCard from './JobCard'
 import Footer from './Footer'
+import ResumeButton from './ResumeButton'
 import data from '../data/jobs'
 import '../css/Work.css'
+
 
 function Work() {
 
@@ -17,13 +19,20 @@ function Work() {
             </div>
 
             <div className='mainContent'>
-                <div className='Work'>
+                
+                <div className='work-container'>
+
+                    <div className="work-header">
+                        <h1 className="title">Resume Overview</h1>
+                        <div className="work-header-item"><ResumeButton /></div>
+                    </div>
+                
                     {Cards}
+
                 </div>
             </div>
 
             <Footer />
-
         </div>
     )
 }

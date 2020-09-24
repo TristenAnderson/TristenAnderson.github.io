@@ -1,9 +1,10 @@
+.contact-wrapper {
+    max-width: 700px;
+    margin: 20vh auto;
+}
+
 .contactCard {
     text-align: center;
-    top: 15vh;
-    position: relative;
-    width: 30vw;
-    left:35vw;
     font-size: 110%;
 }
 
@@ -21,7 +22,6 @@
 
 @media (max-width: 1200px) {
     .contactCard {
-        width: 90vw;
-        left: 5vw;
+        margin: 0 5vw;
     }
 }
