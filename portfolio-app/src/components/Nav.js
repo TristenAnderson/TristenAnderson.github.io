@@ -14,6 +14,7 @@ function NavBar() {
                         <Nav.Link href="/#About">About</Nav.Link>
                         <Nav.Link href="/#Work">Work Experience</Nav.Link>
                         <Nav.Link href="/#Projects">Projects</Nav.Link>
+                        <Nav.Link href="/#Courses">Courses</Nav.Link>
                         <Nav.Link href="/#Contact">Contact</Nav.Link>
                     </Nav>
                     <ResumeButton />

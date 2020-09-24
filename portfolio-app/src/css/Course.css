@@ -1,0 +1,20 @@
+
+.course-button {
+    border-radius: 10px;
+    border: 1px solid #20e4b0;
+    padding: 8px 40px;
+    margin: 10px; 
+    background: transparent;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: #20e4b0;
+    outline: none;
+}
+.course-button:hover {
+    background: #20e4b0;
+    color: black;
+}
+
+.test {
+    display: inline-block;
+}

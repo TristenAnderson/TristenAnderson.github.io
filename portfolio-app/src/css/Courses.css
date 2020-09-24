@@ -1,0 +1,13 @@
+
+.courses-wrapper {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+.courses-wrapper h1{
+    color: #efefef;
+    padding: 15px 0;
+}
+.courses-container{
+    margin-bottom: 25px;
+}
