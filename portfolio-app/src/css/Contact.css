@@ -2,26 +2,16 @@
     max-width: 700px;
     margin: 20vh auto;
 }
-
-.contactCard {
+.contact-card {
     text-align: center;
-    font-size: 110%;
 }
-
-.linkBar {
-    display: inline-flex;
-    justify-content: center;
-    color: #5ff0ce;
-}
-
-.contactDesc {
+.contact-wrapper p {
     padding-top: 5px;
     padding-bottom: 25px;
-    color: #c3c3c3;
 }
 
 @media (max-width: 1200px) {
-    .contactCard {
+    .contact-card {
         margin: 0 5vw;
     }
 }

@@ -7,11 +7,11 @@ function Home() {
 
     return(
         <div>
-            <div className='NavCenter'> 
+            <div className='nav-center'> 
                 <Navbar /> 
             </div>
 
-            <div className='mainContent'>
+            <div className='main-content'>
                 <div className='home'>
                     <h1 className='title'>Hi, my name is Tristen Anderson</h1>
                     <h1 className='title'>Welcome to my site</h1>

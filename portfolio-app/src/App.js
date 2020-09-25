@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {HashRouter, Switch, Route} from 'react-router-dom';
-import Home from './components/Home';
+// import Home from './components/Home';
 import Projects from './components/Projects';
 import Work from './components/Work';
 import Contact from './components/Contact';
@@ -14,7 +14,7 @@ function App() {
     <main>
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path='/' component={About} />
           <Route exact path='/About'component={About} />
           <Route exact path='/Projects'component={Projects} />
           <Route exact path='/Work' component={Work} />

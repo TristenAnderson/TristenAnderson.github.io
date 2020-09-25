@@ -16,11 +16,13 @@ function Courses() {
         return(
             <div> 
                 
-                <div className='NavCenter'> 
+                <div className='nav-center'> 
                     <Navbar /> 
                 </div>
-
-                <div className='mainContent'>
+                <div className="header-wrapper">
+                    <h1>Here is a list of Courses I Have Taken</h1> 
+                </div>
+                <div className='main-content'>
                     <div className='courses-wrapper'>
 
                         <h1>Computer Science Courses</h1>

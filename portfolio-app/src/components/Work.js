@@ -2,32 +2,41 @@ import React from 'react'
 import Navbar from './Nav'
 import JobCard from './JobCard'
 import Footer from './Footer'
-import ResumeButton from './ResumeButton'
+import EducationCard from './EducationCard'
 import data from '../data/jobs'
+import Education from '../data/education'
 import '../css/Work.css'
 
 
 function Work() {
 
-    const Cards = data.map(item => <JobCard job={item} />)
+    const WorkCards = data.map(item => <JobCard job={item} />)
+    const EducationCards = Education.map(item => <EducationCard ed={item} />)
 
     return(
         <div> 
             
-            <div className='NavCenter'> 
+            <div className='nav-center'> 
                 <Navbar /> 
             </div>
 
-            <div className='mainContent'>
-                
+            <div className="header-wrapper">
+                    <h1 className="title">Resume Overview</h1>
+            </div>
+
+            <div className='main-content'>
                 <div className='work-container'>
 
-                    <div className="work-header">
-                        <h1 className="title">Resume Overview</h1>
-                        <div className="work-header-item"><ResumeButton /></div>
+                    <div>
+                        <h2>Education</h2>
+                        {EducationCards}
                     </div>
-                
-                    {Cards}
+
+                    <div>
+                        <h2>Professional Experience</h2>
+                        {WorkCards}
+                    </div>
+                    
 
                 </div>
             </div>

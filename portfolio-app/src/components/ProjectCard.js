@@ -7,7 +7,7 @@ import '../css/ProjectCard.css';
 function ProjectCard(props) {
 
     const useStyle = {
-        color: "#5ff0ce",
+        color: "#4056a1",
     }
 
     const points = props.project.tools.map(tool => <p className="project-tools">{tool}</p>)
