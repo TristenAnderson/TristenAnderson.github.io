@@ -1,20 +1,35 @@
+:root {
+    --primary-color: #e8e3e5;
+    --secondary-color: #1a1a1d;
+    --accent-color: #4056a1;
+  }
 
 .course-button {
     border-radius: 10px;
-    border: 1px solid #20e4b0;
+    border: 1px solid var(--accent-color);
     padding: 8px 40px;
     margin: 10px; 
-    background: transparent;
+    background:#4056a1;
+    color: var(--primary-color);
     text-decoration: none;
     transition-duration: 0.5s;
-    color: #20e4b0;
     outline: none;
+    font-size: 16px;
+    font-weight: 600;
 }
 .course-button:hover {
-    background: #20e4b0;
-    color: black;
+    color: var(--secondary-color);
+    padding: 10px 45px;
+    background: transparent;
 }
 
 .test {
     display: inline-block;
+}
+
+@media(max-width: 800px) {
+    .course-button{
+        display: block;
+        width: 100%;
+    }
 }

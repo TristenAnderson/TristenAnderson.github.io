@@ -1,24 +1,39 @@
+:root {
+  --primary-color: #e8e3e5;
+  --secondary-color: #1a1a1d;
+  --accent-color: #4056a1;
+  --accent-color-secondary: #66fcf1;
+}
+
 .App {
   text-align: center;
 }
-
-.mainContent {
+.header-wrapper {
+  background: var(--secondary-color);
+  color: #e8e3e5;
+  height: 30vh;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15vh 0;
+}
+.main-content {
   width: 100%;
-  height: 100%;
-  background-color: #0d2135;
-  color: white;
-  min-height: 95vh;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  min-height: 60vh;
   display: table;
 }
-
-.title {
-  color:  #f5f5f5;
-}
-
-.styledText {
-  color: #c3c3c3;
-}
-
-.NavCenter {
+.nav-center {
   text-align: center;
+}
+.main-content h1 {
+  color: var(--secondary-color);
+}
+.main-content p, .main-content li {
+  color: var(--secondary-color);
+  font-size: 22px;
+  font-weight: 400;
+}
+.main-content a {
+  color: var(--accent-color);
 }

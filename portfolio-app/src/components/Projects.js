@@ -11,11 +11,15 @@ function Projects() {
 
     return(
         <div>
-            <div className='NavCenter'> 
+            <div className='nav-center'> 
                 <Navbar /> 
             </div>
 
-            <div className='mainContent'>
+            <div className="header-wrapper">
+                <h1>My Projects</h1>
+            </div>
+
+            <div className='main-content'>
                 <div className="grid-container">
                     <div className="project-grid">
                         {ProjectCards}     

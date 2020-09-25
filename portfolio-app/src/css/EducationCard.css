@@ -1,0 +1,24 @@
+.education-card {
+    padding: 5%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50px auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 25px 0;
+}
+.education-card h3 {
+    color: #1a1a1d; 
+}
+.education-card img{
+    max-width: 80px;
+}
+
+@media(max-width: 800px) {
+    .education-card img{
+        display: none;
+    }
+    .education-card {
+        display: block;
+        margin: 5% 5%;
+    }
+}

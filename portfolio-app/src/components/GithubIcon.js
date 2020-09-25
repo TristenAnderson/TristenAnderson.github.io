@@ -4,7 +4,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 function GithubIcon(props) {
 
     const useStyle = {
-        color: "#5ff0ce",
+        color: "#4056a1",
     }
 
     return(

@@ -4,7 +4,7 @@ import LaunchIconUI from '@material-ui/icons/Launch';
 function LaunchIcon(props) {
 
     const useStyle = {
-        color: "#5ff0ce",
+        color: "#4056a1",
     }
 
     return(

@@ -3,12 +3,12 @@
      {
         university: "Northern Illinois University",
         degree: [
-            "B.S. Computer Sience",
-            "B.S. Applied Mathematics",
-            "Minor in Statistics",
+            "B.S. in Computer Science",
+            "B.S. in Applied Mathematics",
         ],
         link: "https://www.niu.edu",
-        gradDate: "Spring 2021",
+        date: "Fall 2017 - Spring 2021",
+        gpa: "3.95",
      },
 ]
 

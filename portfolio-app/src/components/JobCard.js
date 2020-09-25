@@ -8,17 +8,16 @@ function JobCard(props) {
     return(
         <div className="JobCard">
             <div>
-                <h3 className="JobHeader">{props.job.title} @   
+                <h3>{props.job.title} @   
                     <a
                     href={props.job.link} 
-                    className="CompanyLink" 
                     target="_blank" 
                     rel="noopener noreferrer">
                     {' ' + props.job.company}
                     </a>
                 </h3>
-                <h4 className="JobDates">{props.job.date}</h4>
-                <ul className="JobBullets">
+                <h4>{props.job.date}</h4>
+                <ul>
                     {points}
                 </ul>
             </div>
