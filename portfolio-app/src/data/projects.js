@@ -1,7 +1,7 @@
 
 const data = [
    {
-      title: "Portfolio Site V1",
+      title: "tristenanderson.github.io",
       link: "https://github.com/TristenAnderson/tristenanderson.github.io",
       launch: "https://tristenanderson.github.io/#/",
       date: "8/30/2020",
