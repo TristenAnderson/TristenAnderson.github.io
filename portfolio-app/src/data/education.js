@@ -9,6 +9,8 @@
         link: "https://www.niu.edu",
         date: "Fall 2017 - Spring 2021",
         gpa: "3.95",
+        img: "./Images/NIU.png",
+        imgDesc: "NIU Logo",
      },
 ]
 

@@ -12,15 +12,15 @@ const data = [
       title: "467 Group Project",
       link: "",
       date: "8/30/2020",
-      desc: "An ecommerce web application",
-      tools: ["React", "Node.js", "CSS", "JavaScript"],
+      desc: "An ecommerce web application that enables customers to place and pay for orders",
+      tools: ["React", "Node.js", "CSS", "Redux"],
    },
    {
       title: "466 Group Project",
       link: "https://github.com/TristenAnderson/466GroupProject",
       launch: "http://students.cs.niu.edu/~z1820036/groupProject/",
       date: "8/30/2020",
-      desc: "A web app to register for a small set Karaoke songs",
+      desc: "A web app to register for a small set Karaoke songs with a dj interface to manage the queue",
       tools: ["HTML", "CSS", "php"],
    },
 ]

@@ -20,11 +20,11 @@ const Courses = [
         desc: "Kinematics of particles and rigid bodies; kinetics of particles and rigid bodies: force-mass-acceleration, work and energy, impulse and momentum.",
     },
     {
-        name: "MEE 210: Enineering Mechanics",
+        name: "MEE 210: Engineering Mechanics",
         desc: "Principles of engineering mechanics; vector algebra, force systems, free-body diagrams, resultants, equilibrium, centroids and centers of gravity; application to trusses, frames, machines, and beams; moments of inertia; friction.",
     },
     {
-        name: "ELE 210: Enineering Circuit Analysis",
+        name: "ELE 210: Engineering Circuit Analysis",
         desc: "Properties of electric circuit elements, Ohm’s and Kirchhoff’s laws; node and loop equations; AC sources and impedance; time domain transient and frequency domain; and steady state analysis.",
     },
     {

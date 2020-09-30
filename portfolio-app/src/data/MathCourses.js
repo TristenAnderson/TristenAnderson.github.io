@@ -8,7 +8,7 @@ const Courses = [
         desc: "Further study of sequences and series of functions; functions of several variables.",
     },
     {
-        name: "MATH 430: Adanced Calculus I",
+        name: "MATH 430: Advanced Calculus I",
         desc: "Re-examination of the calculus of functions of one variable: convergence, continuity, differentiation, the mean-value theorem, and the Riemann integral.",
     },
     {
@@ -28,7 +28,7 @@ const Courses = [
         desc: "Introduction to the basic ideas and fundamental laws of probability including sample spaces, events, independence, random variables, special probability distributions and elementary statistical inference.",
     },
     {
-        name: "MATH 240 Linear Algebra and Applications",
+        name: "MATH 240: Linear Algebra and Applications",
         desc: "Matrix algebra and solutions of systems of linear equations, matrix inversion, determinants. Vector spaces, linear dependence, basis and dimension, subspaces. Inner products, Gram-Schmidt process. Linear transformations, matrices of a linear transformation. Eigenvalues and eigenvectors",
     },
     {

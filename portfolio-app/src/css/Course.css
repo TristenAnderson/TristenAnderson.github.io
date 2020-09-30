@@ -4,6 +4,9 @@
     --accent-color: #4056a1;
   }
 
+.course-container {
+    display: inline-block;
+}
 .course-button {
     border-radius: 10px;
     border: 1px solid var(--accent-color);
@@ -23,13 +26,13 @@
     background: transparent;
 }
 
-.test {
-    display: inline-block;
-}
-
 @media(max-width: 800px) {
     .course-button{
+        width: 90%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .course-container {
         display: block;
-        width: 100%;
     }
 }

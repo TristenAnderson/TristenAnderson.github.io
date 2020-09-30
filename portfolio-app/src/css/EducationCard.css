@@ -12,6 +12,9 @@
 .education-card img{
     max-width: 80px;
 }
+.education-card a h3{
+    color: #4056a1;
+}
 
 @media(max-width: 800px) {
     .education-card img{

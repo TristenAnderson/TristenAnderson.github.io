@@ -4,7 +4,7 @@ import JobCard from './JobCard'
 import Footer from './Footer'
 import EducationCard from './EducationCard'
 import data from '../data/jobs'
-import Education from '../data/education'
+import Education from '../data/Education'
 import '../css/Work.css'
 
 

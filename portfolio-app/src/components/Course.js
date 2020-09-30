@@ -14,7 +14,7 @@ class Courses extends React.Component {
 
     render(){
         return(
-            <div className="test"> 
+            <div className="course-container"> 
 
                 <button 
                 onClick={e => {this.showModal(e)}} 
