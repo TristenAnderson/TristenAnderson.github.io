@@ -1,6 +1,19 @@
 
 const jobs = [
     {
+        company: "Nokia",
+        title: "Software Engineering Intern",
+        link: "https://www.nokia.com/",
+        date: "January 2021 - May 2021",
+        points: [
+            "Developed a mobile app backend with Node.js using a GitLab CI/CD pipeline",
+            "Organized Docker containerization and deployment using Kubernetes",
+        ],
+        image: "",
+        imageDesc: "Nokia Company Logo",
+
+    },
+    {
         company: "Discover Financial Services",
         title: "Business Technology Intern",
         link: "https://www.discover.com/",

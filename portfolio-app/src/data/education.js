@@ -4,7 +4,7 @@
         university: "Northern Illinois University",
         degree: [
             "B.S. in Computer Science",
-            "B.S. in Applied Mathematics",
+            "B.S. in Applied Mathematics, Minor in Statistics",
         ],
         link: "https://www.niu.edu",
         date: "Fall 2017 - Spring 2021",
