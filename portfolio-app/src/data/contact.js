@@ -5,7 +5,7 @@ const data = [
         label: "Github",
     },
     {
-        link: "",
+        link: "https://www.linkedin.com/in/tristen-anderson/",
         label: "LinkdIn",
     }
 ]

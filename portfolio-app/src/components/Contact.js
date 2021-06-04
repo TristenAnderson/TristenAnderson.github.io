@@ -24,13 +24,13 @@ function Contact() {
                     <div className='contact-card'>
                         <h1 >Get In Touch</h1>
         
-                        <p>My inbox is always open,
-                            if you have questions or just want to get in contact send me an email. I will do my best to reply,
-                            please let me know you are from my site.
+                        <p>
+                            My inbox is always open,
+                            if you have questions or just want to get in contact send me an email.
                         </p>
                         <OutlineButton 
-                        to='mailto:tristendanderson@gmail.com' 
-                        title='Email Me' 
+                            to='mailto:tristendanderson@gmail.com' 
+                            title='Email Me' 
                         />
                     </div>
                 </div>
