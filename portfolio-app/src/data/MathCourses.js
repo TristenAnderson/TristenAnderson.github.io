@@ -1,5 +1,9 @@
 const Courses = [
     {
+        name: "MATH 435: Numerical Analysis",
+        desc: "Polynomial interpolation, numerical solutions of nonlinear equations, least squares approximation by polynomials, orthogonal polynomials, economization of power series. Numerical integration including quadrature formulae, adaptive quadrature, composite quadrature formulae, and Romberg integration. Numerical methods for initial value problems including Taylor series methods, Runge-Kutta methods, and multistep methods.",
+    },
+    {
         name: "STAT 435: Applied Regression Analysis",
         desc: "An in-depth examination of exploratory data analysis and graphical techniques, and statistical methods for linear regression analysis. Includes techniques for model selection, assessment of influential observations, and verification of model assumptions.",
     },
